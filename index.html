@@ -1,80 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Latitude Summary</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="LandingPage.css">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v4.0.1">
+        <title>Understanding the Data</title>
+        <link href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Latitude Summary</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <!-- <Bootstrap core CSS> -->
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="ComparisonPage.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="cities.html">City Data</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="SecondaryPage.html">Latitude vs. Max Temperature</a>
-            <a class="dropdown-item" href="ThirdPage.html">Latitude vs. Humidity</a>
-            <a class="dropdown-item" href="FourthPage.html">Latitude vs. Cloudiness</a>
-            <a class="dropdown-item" href="FifthPage.html">Latitude vs. Wind Speed</a>
-          </div>
-        </li>
-      </ul> 
-    </div>
-  </nav>
-</head>
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+        </style>
+        <!-- Custom styles for this template -->
+        <link href="./css/jumbotron.css" rel="stylesheet">
 
-<body>
-  <div class = "row">
-    <div class = "col-12 col-md-6">
-      <div class = "container">
-        <h1>Summary: Latitude vs. X</h1>
-        <img id = "main-graph" src=https://github.com/DailyAdamG/python-api-challenge/blob/master/WeatherPy/output_data/Lat%20vs.%20Temp.png?raw=true>
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-          To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-          After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at
-          included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created
-          as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-        </p>
-      </div>
-    </div>
+    </head>
 
-    <div class = "col-12 col-md-6">
-      <div class = "container">
-        <h1>Visualizations</h1>
-          <div class = row>
-            <div class = "col-md-6 col-3">
-        <a href="SecondaryPage.html"> <img class="visualizations" src=https://github.com/thom0497/Web-Design-Challenge-JAT/blob/master/Instructions/WebVisualizations/assets/images/Fig1.png?raw=true></a>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">MLB DATA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">AL WEST</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="Astros.html">Houston Astros</a>
+                            <a class="dropdown-item" href="Angels.html">Los Angeles Angels</a>
+                            <a class="dropdown-item" href="Athletics.html">Oakland Athletics</a>
+                            <a class="dropdown-item" href="Mariners.html">Seattle Mariners</a>
+                            <a class="dropdown-item" href="Rangers.html">Texas Rangers</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">AL CENTRAL</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="White_Sox.html">Chicago White Sox</a>
+                            <a class="dropdown-item" href="Indians.html">Cleveland Indians</a>
+                            <a class="dropdown-item" href="Tigers.html">Detroit Tigers</a>
+                            <a class="dropdown-item" href="Royals.html">Kansas City Royals</a>
+                            <a class="dropdown-item" href="Twins.html">Minnesota Twins</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">AL EAST</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="Orioles.html">Baltimore Orioles</a>
+                            <a class="dropdown-item" href="Red_Sox.html">Boston Red Sox</a>
+                            <a class="dropdown-item" href="Yankees.html">New York Yankees</a>
+                            <a class="dropdown-item" href="Rays.html">Tampa Bay Rays</a>
+                            <a class="dropdown-item" href="Blue_Jays.html">Toronto Blue Jays</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">NL WEST</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="Diamondbacks.html">Arizona Diamondbacks</a>
+                            <a class="dropdown-item" href="Rockies.html">Colorado Rockies</a>
+                            <a class="dropdown-item" href="Dodgers.html">Los Angeles Dodgers</a>
+                            <a class="dropdown-item" href="Padres.html">San Diego Padres</a>
+                            <a class="dropdown-item" href="Giants.html">San Francisco Giants</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">NL CENTRAL</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="Cubs.html">Chicago Cubs</a>
+                            <a class="dropdown-item" href="Reds.html">Cincinnati Reds</a>
+                            <a class="dropdown-item" href="Brewers.html">Milwaukee Brewers</a>
+                            <a class="dropdown-item" href="Pirates.html">Pittsburgh Pirates</a>
+                            <a class="dropdown-item" href="Cardinals.html">St. Louis Cardinals</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">NL EAST</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="Braves.html">Atlanta Braves</a>
+                            <a class="dropdown-item" href="Marlins.html">Miami Marlins</a>
+                            <a class="dropdown-item" href="Mets.html">New York Mets</a>
+                            <a class="dropdown-item" href="Phillies.html">Philadelphia Phillies</a>
+                            <a class="dropdown-item" href="Nationals.html">Washington Nationals</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class = "col-md-6 col-3">
-        <a href="ThirdPage.html"><img class="visualizations" src=https://github.com/thom0497/Web-Design-Challenge-JAT/blob/master/Instructions/WebVisualizations/assets/images/Fig2.png?raw=true></a>
-            </div>
-            <div class = "col-md-6 col-3">
-        <a href="FourthPage"><img class="visualizations" src=https://github.com/thom0497/Web-Design-Challenge-JAT/blob/master/Instructions/WebVisualizations/assets/images/Fig3.png?raw=true></a>
-            </div>
-            <div class = "col-md-6 col-3">
-        <a href="FifthPage.html"><img class="visualizations" src=https://github.com/thom0497/Web-Design-Challenge-JAT/blob/master/Instructions/WebVisualizations/assets/images/Fig4.png?raw=true></a>
-            </div>
-        </div>
-      </div>
-    </div>
-</body>
+        </nav>
+        <main role="main">
+            <!-- Main jumbotron for a primary marketing message or call to action -->
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-3"><Strong>Understanding the Data</Strong></h1>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                    <!-- <input type="text" id="my-input" size= "300"/> -->
+                    <strong>
+                        <p id="my-input"> </p>
+                    </strong>
 
-</html>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <center><img src="youre-killing-me-smalls--sandlot--large.png" alt="you're killing me"></center>
+                        <p>
+                        <h2><strong>Draft History</h2></strong>
+                        <p>
+                        <h3>The First-Year Player Draft, also known as the Rule 4 Draft, is Major League Baseball's
+                            primary mechanism for assigning amateur baseball players,
+                            from high schools, colleges, and other amateur baseball clubs, to its teams. The draft order
+                            is determined based on the previous season's standings,
+                            with the team possessing the worst record receiving the first pick. In addition, teams which
+                            lost free agents in the previous off-season may be
+                            awarded "compensatory" picks.</h3>
+                        </p>
+                        <p><a class="btn btn-primary btn-lg"
+                                href="https://www.baseball-almanac.com/draft/baseball_draft.shtml" role="button">Learn
+                                More about Draft History!</a></p>
+                        <p>
+                        <h2><strong>Wins Above Replacement (WAR)</h2></strong>
+                        <p>
+                        <h3>WAR measures a player's value in all facets of the game by deciphering how many more wins
+                            he's worth than a
+                            replacement-level player at his same position (e.g., a Minor League replacement or a readily
+                            available fill-in free
+                            agent).</h3>
+                        </p>
+                        <p><a class="btn btn-primary btn-lg"
+                                href="http://m.mlb.com/glossary/advanced-stats/wins-above-replacement#:~:text=Definition,fill%2Din%20free%20agent)."
+                                role="button">Learn More about WAR!!!</a></p>
+                        <p>
+                        <h2><strong>Team Control</h2></strong>
+                        <p>
+                        <h3>Following the completion of the term of his Uniform Player’s Contract, any Player with 6
+                            or more years of Major League service who has not executed a
+                            contract for the next succeeding season shall become a free agent, subject to and in
+                            accordance with the provisions of this Section B.</h3>
+                        </p>
+                        <p><a class="btn btn-primary btn-lg"
+                                href="https://en.wikipedia.org/wiki/Major_League_Baseball_transactions#Free_agency_and_salary_arbitration"
+                                role="button">Learn More about Team Control!</a></p>
+                    </div>
+                </div>
+            </div> <!-- /container -->
+            <script src="https://d3js.org/d3.v5.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                crossorigin="anonymous"></script>
+            <script type="text/javascript" src="js/app.js"></script>
+
+            <!-- <script type = "text/javascript" src= "index.js"></script> -->
+
+    </body>
