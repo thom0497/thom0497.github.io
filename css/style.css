@@ -7,16 +7,16 @@ h2 {
 }
 
 
-.astros_chart::before {
+.niners_chart::before {
   position: relative;
   top: 100px;
   left: 800px;
   z-index: -1;
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 80px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/houston-astros-logo-present.gif");
+  background-image: url("https://content.sportslogos.net/logos/7/179/thumbs/17994552009.gif");
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
@@ -24,9 +24,9 @@ h2 {
 }
 
 
-/*Astros Styles*/
+/*49ers Styles*/
 
-.astros_tooltip {
+.niners_tooltip {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -34,14 +34,14 @@ h2 {
   width: 180px;
   height: 60px;
   font: 12px sans-serif;
-  color: #EB6E1F; /*Team secondary color*/
+  color: #B3995D; /*Team secondary color*/
   text-align: center;
-  background: #002D62; /*Team primary color*/
+  background: ##AA0000; /*Team primary color*/
   border: 0;
   border-radius: 10px;
   }
 
-.astros_img {
+.niners_img {
   display: block;
   margin-left:auto;
   margin-right: auto;
@@ -52,57 +52,57 @@ h2 {
 
 }  
 
-.astros_axis-text {
+.niners_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #002D62; /*Team primary color*/
+  fill: ##AA0000; /*Team primary color*/
   text-anchor: middle;
 }
 
-.astros_active {
+.niners_active {
   font-weight: bold;
-  fill: #002D62; /*Team primary color*/
+  fill: #AA0000; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.astros_inactive {
+.niners_inactive {
   font-weight: lighter;
-  fill: #002D62; /*Team primary color*/
+  fill: #AA0000; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.astros_inactive:hover {
-  fill: #EB6E1F; /*Team secondary color*/
+.niners_inactive:hover {
+  fill: #B3995D; /*Team secondary color*/
   cursor: pointer;
 }
 
-.astros_title {
+.niners_title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
 
-/*Angels Styles*/
+/*bengals Styles*/
 
-.angels_chart::before {
+.bengals_chart::before {
   position: relative;
   top: 100px;
   left: 800px;
   z-index: -1;
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 100px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/los-angeles-angels-logo-present.gif");
+  background-image: url('https://content.sportslogos.net/logos/7/154/thumbs/403.gif');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   opacity: 0.5
 }
-.angels_tooltip {
+.bengals_tooltip {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -110,1371 +110,313 @@ h2 {
   width: 180px;
   height: 60px;
   font: 12px sans-serif;
-  color: #BA0021; /*Team secondary color*/
+  color: ##000000; /*Team secondary color*/
   text-align: center;
-  background: #003263; /*Team primary color*/
+  background: #FB4F14; /*Team primary color*/
   border: 0;
   border-radius: 10px;
 }
 
-.angels_axis-text {
+.bengals_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #003263; /*Team primary color*/
+  fill: #FB4F14; /*Team primary color*/
   text-anchor: middle;
 }
 
-.angels_active {
+.bengals_active {
   font-weight: bold;
-  fill: #003263; /*Team primary color*/
+  fill: #FB4F14; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.angels_inactive {
+.bengals_inactive {
   font-weight: lighter;
-  fill: #003263; /*Team primary color*/
+  fill: #FB4F14; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.angels_inactive:hover {
-  fill: #BA0021; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.angels_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Athletics Styles*/
-
-.athletics_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/oakland-athletics-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.athletics_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #EFB21E; /*Team secondary color*/
-  text-align: center;
-  background: #003831; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.athletics_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #003831; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.athletics_active {
-  font-weight: bold;
-  fill: #003831; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.athletics_inactive {
-  font-weight: lighter;
-  fill: #003831; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.athletics_inactive:hover {
-  fill: #EFB21E; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.athletics_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Mariners Styles*/
-
-.mariners_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_seattle-mariners-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.mariners_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #005C5C; /*Team secondary color*/
-  text-align: center;
-  background: #0C2C56; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.mariners_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #0C2C56; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.mariners_active {
-  font-weight: bold;
-  fill: #0C2C56; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.mariners_inactive {
-  font-weight: lighter;
-  fill: #0C2C56; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.mariners_inactive:hover {
-  fill: #005C5C; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.mariners_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Rangers Styles*/
-
-.rangers_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_texas-rangers-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.rangers_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #C0111F; /*Team secondary color*/
-  text-align: center;
-  background: #003278; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.rangers_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #003278; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.rangers_active {
-  font-weight: bold;
-  fill: #003278; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.rangers_inactive {
-  font-weight: lighter;
-  fill: #003278; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.rangers_inactive:hover {
-  fill: #C0111F; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.rangers_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*White Sox Styles*/
-
-.white_sox_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_chicago-white-sox-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.white_sox_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #C4CED4; /*Team secondary color*/
-  text-align: center;
-  background: #27251F; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.white_sox_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #27251F; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.white_sox_active {
-  font-weight: bold;
-  fill: #27251F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.white_sox_inactive {
-  font-weight: lighter;
-  fill: #27251F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.white_sox_inactive:hover {
-  fill: #C4CED4; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.white_sox_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Indians Styles*/
-
-.indians_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_cleveland-indians-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.indians_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #E31937; /*Team secondary color*/
-  text-align: center;
-  background: #0C2340; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.indians_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #0C2340; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.indians_active {
-  font-weight: bold;
-  fill: #0C2340; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.indians_inactive {
-  font-weight: lighter;
-  fill: #0C2340; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.indians_inactive:hover {
-  fill: #E31937; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.indians_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Tigers Styles*/
-
-.tigers_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_detroit-tigers-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.tigers_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #FA4616; /*Team secondary color*/
-  text-align: center;
-  background: #0C2340; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.tigers_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #0C2340; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.tigers_active {
-  font-weight: bold;
-  fill: #0C2340; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.tigers_inactive {
-  font-weight: lighter;
-  fill: #0C2340; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.tigers_inactive:hover {
-  fill: #FA4616; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.tigers_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Royals Styles*/
-
-.royals_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_kansas-city-royals-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.royals_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #BD9B60; /*Team secondary color*/
-  text-align: center;
-  background: #004687; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.royals_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #004687; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.royals_active {
-  font-weight: bold;
-  fill: #004687; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.royals_inactive {
-  font-weight: lighter;
-  fill: #004687; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.royals_inactive:hover {
-  fill: #BD9B60; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.royals_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Twins Styles*/
-
-.twins_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_minnesota-twins-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.twins_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #D31145; /*Team secondary color*/
-  text-align: center;
-  background: #002B5C; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.twins_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #002B5C; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.twins_active {
-  font-weight: bold;
-  fill: #002B5C; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.twins_inactive {
-  font-weight: lighter;
-  fill: #002B5C; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.twins_inactive:hover {
-  fill: #D31145; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.twins_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Orioles Styles*/
-
-.orioles_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_baltimore-orioles-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.orioles_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #DF4601; /*Team secondary color*/
-  text-align: center;
-  background: #000000; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.orioles_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #000000; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.orioles_active {
-  font-weight: bold;
-  fill: #000000; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.orioles_inactive {
-  font-weight: lighter;
-  fill: #000000; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.orioles_inactive:hover {
-  fill: #DF4601; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.orioles_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Red Sox Styles*/
-
-.red_sox_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_boston-red-sox-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.red_sox_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #BD3039; /*Team secondary color*/
-  text-align: center;
-  background: #0C2340; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.red_sox_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #0C2340; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.red_sox_active {
-  font-weight: bold;
-  fill: #0C2340; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.red_sox_inactive {
-  font-weight: lighter;
-  fill: #0C2340; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.red_sox_inactive:hover {
-  fill: #BD3039; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.red_sox_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Yankees Styles*/
-
-.yankees_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_new-york-yankees-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.yankees_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #D3D3D3; /*Team secondary color*/
-  text-align: center;
-  background: #0C2340; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.yankees_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #0C2340; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.yankees_active {
-  font-weight: bold;
-  fill: #0C2340; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.yankees_inactive {
-  font-weight: lighter;
-  fill: #0C2340; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.yankees_inactive:hover {
-  fill: #D3D3D3; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.yankees_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Rays Styles*/
-
-.rays_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_tampa-bay-devil-rays-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.rays_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #8FBCE6; /*Team secondary color*/
-  text-align: center;
-  background: #092C5C; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.rays_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #092C5C; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.rays_active {
-  font-weight: bold;
-  fill: #092C5C; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.rays_inactive {
-  font-weight: lighter;
-  fill: #092C5C; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.rays_inactive:hover {
-  fill: #8FBCE6; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.rays_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Blue Jays Styles*/
-
-.blue_jays_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_toronto-blue-jays-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.blue_jays_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #E8291C; /*Team secondary color*/
-  text-align: center;
-  background: #134A8E; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.blue_jays_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #134A8E; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.blue_jays_active {
-  font-weight: bold;
-  fill: #134A8E; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.blue_jays_inactive {
-  font-weight: lighter;
-  fill: #134A8E; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.blue_jays_inactive:hover {
-  fill: #E8291C; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.blue_jays_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Diamondbacks Styles*/
-
-
-.diamondbacks_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_arizona-diamond-backs-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.diamondbacks_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #E3D4AD; /*Team secondary color*/
-  text-align: center;
-  background: #A71930; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.diamondbacks_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #A71930; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.diamondbacks_active {
-  font-weight: bold;
-  fill: #A71930; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.diamondbacks_inactive {
-  font-weight: lighter;
-  fill: #A71930; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.diamondbacks_inactive:hover{
-  fill: #E3D4AD; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.diamondbacks_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Rockies Styles*/
-
-.rockies_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_colorado-rockies-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.rockies_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #C4CED4; /*Team secondary color*/
-  text-align: center;
-  background: #33006F; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.rockies_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #33006F; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.rockies_active {
-  font-weight: bold;
-  fill: #33006F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.rockies_inactive {
-  font-weight: lighter;
-  fill: #33006F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.rockies_inactive:hover{
-  fill: #C4CED4; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.rockies_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Dodgers Styles*/
-
-.dodgers_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_los-angeles-dodgers-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.dodgers_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #A5ACAF; /*Team secondary color*/
-  text-align: center;
-  background: #005A9C; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.dodgers_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #005A9C; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.dodgers_active {
-  font-weight: bold;
-  fill: #005A9C; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.dodgers_inactive {
-  font-weight: lighter;
-  fill: #005A9C; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.dodgers_inactive:hover{
-  fill: #A5ACAF; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.dodgers_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Padres Styles*/
-
-.padres_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_san-diego-padres-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.padres_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #FFC425; /*Team secondary color*/
-  text-align: center;
-  background: #2F241D; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.padres_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #2F241D; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.padres_active {
-  font-weight: bold;
-  fill: #2F241D; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.padres_inactive {
-  font-weight: lighter;
-  fill: #2F241D; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.padres_inactive:hover{
-  fill: #FFC425; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.padres_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Giants Styles*/
-
-.giants_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_san-francisco-giants-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.giants_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #FD5A1E; /*Team secondary color*/
-  text-align: center;
-  background: #27251F; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.giants_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #27251F; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.giants_active {
-  font-weight: bold;
-  fill: #27251F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.giants_inactive {
-  font-weight: lighter;
-  fill: #27251F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.giants_inactive:hover{
-  fill: #FD5A1E; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.giants_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Cubs Styles*/
-
-.cubs_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_chicago-cubs-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-
-.cubs_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #CC3433; /*Team secondary color*/
-  text-align: center;
-  background: #0E3386; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.cubs_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #0E3386; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.cubs_active {
-  font-weight: bold;
-  fill: #0E3386; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.cubs_inactive {
-  font-weight: lighter;
-  fill: #0E3386; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.cubs_inactive:hover{
-  fill: #CC3433; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.cubs_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Reds Styles*/
-
-.reds_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_cincinnati-reds-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.reds_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #000000; /*Team secondary color*/
-  text-align: center;
-  background: #C6011F; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.reds_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #C6011F; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.reds_active {
-  font-weight: bold;
-  fill: #C6011F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.reds_inactive {
-  font-weight: lighter;
-  fill: #C6011F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.reds_inactive:hover{
+.bengals_inactive:hover {
   fill: #000000; /*Team secondary color*/
   cursor: pointer;
 }
 
-.reds_title {
+.bengals_title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
 
-/*Brewers Styles*/
+/*bears Styles*/
 
-.brewers_chart::before {
+.bears_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 270px;
+  height: 180px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/169/thumbs/364.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.bears_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #C83803; /*Team secondary color*/
+  text-align: center;
+  background: #0B162A; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.bears_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #0B162A; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.bears_active {
+  font-weight: bold;
+  fill: #0B162A; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.bears_inactive {
+  font-weight: lighter;
+  fill: #0B162A; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.bears_inactive:hover {
+  fill: #C83803; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.bears_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*bills Styles*/
+
+.bills_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 120px;
+  height: 80px;
+  content: " ";
+  background-image: url("https://content.sportslogos.net/logos/7/149/thumbs/n0fd1z6xmhigb0eej3323ebwq.gif");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.bills_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #C60C30; /*Team secondary color*/
+  text-align: center;
+  background: #00338D; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.bills_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #00338D; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.bills_active {
+  font-weight: bold;
+  fill: #00338D; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.bills_inactive {
+  font-weight: lighter;
+  fill: #00338D; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.bills_inactive:hover {
+  fill: #C60C30; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.bills_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*broncos Styles*/
+
+.broncos_chart::before {
+  position: relative;
+  top: 160px;
+  left: 700px;
+  z-index: -1;
+  display: block;
+  width: 160px;
+  height: 110px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/161/thumbs/9ebzja2zfeigaziee8y605aqp.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.broncos_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #002244; /*Team secondary color*/
+  text-align: center;
+  background: #FB4F14; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.broncos_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #FB4F14; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.broncos_active {
+  font-weight: bold;
+  fill: #FB4F14; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.broncos_inactive {
+  font-weight: lighter;
+  fill: #FB4F14; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.broncos_inactive:hover {
+  fill: #002244; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.broncos_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*Browns Styles*/
+
+.browns_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 150px;
+  height: 110px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/155/thumbs/15578552015.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.browns_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #FF3C00; /*Team secondary color*/
+  text-align: center;
+  background: #311D00; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.browns_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #311D00; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.browns_active {
+  font-weight: bold;
+  fill: #311D00; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.browns_inactive {
+  font-weight: lighter;
+  fill: #311D00; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.browns_inactive:hover {
+  fill: #FF3C00; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.browns_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*buccaneers Styles*/
+
+.buccaneers_chart::before {
   position: relative;
   top: 100px;
   left: 800px;
@@ -1483,14 +425,14 @@ h2 {
   width: 150px;
   height: 150px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_milwaukee-brewers-logo-present.gif");
+  background-image: url('https://content.sportslogos.net/logos/7/176/thumbs/17683632020.gif');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   opacity: 0.5
 }
 
-.brewers_tooltip {
+.buccaneers_tooltip {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -1498,113 +440,47 @@ h2 {
   width: 180px;
   height: 60px;
   font: 12px sans-serif;
-  color: #B6922E; /*Team secondary color*/
+  color: #FF7900; /*Team secondary color*/
   text-align: center;
-  background: #0A2351; /*Team primary color*/
+  background: #D50A0A; /*Team primary color*/
   border: 0;
   border-radius: 10px;
 }
 
-.brewers_axis-text {
+.buccaneers_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #0A2351; /*Team primary color*/
+  fill: #D50A0A; /*Team primary color*/
   text-anchor: middle;
 }
 
-.brewers_active {
+.buccaneers_active {
   font-weight: bold;
-  fill: #0A2351; /*Team primary color*/
+  fill: #D50A0A; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.brewers_inactive {
+.buccaneers_inactive {
   font-weight: lighter;
-  fill: #0A2351; /*Team primary color*/
+  fill: #D50A0A; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.brewers_inactive:hover{
-  fill: #B6922E; /*Team secondary color*/
+.buccaneers_inactive:hover {
+  fill: #FF7900; /*Team secondary color*/
   cursor: pointer;
 }
 
-.brewers_title {
+.buccaneers_title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
 
-/*Pirates Styles*/
-
-.pirates_chart::before {
-  position: relative;
-  top: 100px;
-  left: 800px;
-  z-index: -1;
-  display: block;
-  width: 150px;
-  height: 150px;
-  content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_pittsburgh-pirates-logo-present.gif");
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-  opacity: 0.5
-}
-
-.pirates_tooltip {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  font: 12px sans-serif;
-  color: #FDB827; /*Team secondary color*/
-  text-align: center;
-  background: #27251F; /*Team primary color*/
-  border: 0;
-  border-radius: 10px;
-}
-
-.pirates_axis-text {
-  font-family: sans-serif;
-  font-weight: bold;
-  fill: #27251F; /*Team primary color*/
-  text-anchor: middle;
-}
-
-.pirates_active {
-  font-weight: bold;
-  fill: #27251F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.pirates_inactive {
-  font-weight: lighter;
-  fill: #27251F; /*Team primary color*/
-  transition: fill 0.3s ease-out;
-  text-anchor: middle;
-}
-
-.pirates_inactive:hover{
-  fill: #FDB827; /*Team secondary color*/
-  cursor: pointer;
-}
-
-.pirates_title {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-
-/*Cardinals Styles*/
+/*cardinals Styles*/
 
 .cardinals_chart::before {
   position: relative;
@@ -1612,10 +488,10 @@ h2 {
   left: 800px;
   z-index: -1;
   display: block;
-  width: 150px;
+  width: 200px;
   height: 150px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_st-louis-cardinals-logo-present.gif");
+  background-image: url('https://content.sportslogos.net/logos/7/177/thumbs/kwth8f1cfa2sch5xhjjfaof90.gif');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
@@ -1630,9 +506,9 @@ h2 {
   width: 180px;
   height: 60px;
   font: 12px sans-serif;
-  color: #FEDB00; /*Team secondary color*/
+  color: #000000; /*Team secondary color*/
   text-align: center;
-  background: #C41E3A; /*Team primary color*/
+  background: #97233F; /*Team primary color*/
   border: 0;
   border-radius: 10px;
 }
@@ -1640,26 +516,26 @@ h2 {
 .cardinals_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #C41E3A; /*Team primary color*/
+  fill: #97233F; /*Team primary color*/
   text-anchor: middle;
 }
 
 .cardinals_active {
   font-weight: bold;
-  fill: #C41E3A; /*Team primary color*/
+  fill: #97233F; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
 .cardinals_inactive {
   font-weight: lighter;
-  fill: #C41E3A; /*Team primary color*/
+  fill: #97233F; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.cardinals_inactive:hover{
-  fill: #FEDB00; /*Team secondary color*/
+.cardinals_inactive:hover {
+  fill: #000000; /*Team secondary color*/
   cursor: pointer;
 }
 
@@ -1670,25 +546,25 @@ h2 {
   text-decoration: underline;
 }
 
-/*Braves Styles*/
+/*chargers Styles*/
 
-.braves_chart::before {
+.chargers_chart::before {
   position: relative;
   top: 100px;
-  left: 800px;
+  left: 700px;
   z-index: -1;
   display: block;
-  width: 150px;
+  width: 220px;
   height: 150px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_atlanta-braves-logo-present.gif");
+  background-image: url('https://content.sportslogos.net/logos/7/6446/thumbs/644616602020.gif');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   opacity: 0.5
 }
 
-.braves_tooltip {
+.chargers_tooltip {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -1696,49 +572,115 @@ h2 {
   width: 180px;
   height: 60px;
   font: 12px sans-serif;
-  color: #CE1141; /*Team secondary color*/
+  color: #FFC20E; /*Team secondary color*/
   text-align: center;
-  background: #13274F; /*Team primary color*/
+  background: #002A5E; /*Team primary color*/
   border: 0;
   border-radius: 10px;
 }
 
-.braves_axis-text {
+.chargers_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #13274F; /*Team primary color*/
+  fill: #002A5E; /*Team primary color*/
   text-anchor: middle;
 }
 
-.braves_active {
+.chargers_active {
   font-weight: bold;
-  fill: #13274F; /*Team primary color*/
+  fill: #002A5E; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.braves_inactive {
+.chargers_inactive {
   font-weight: lighter;
-  fill: #13274F; /*Team primary color*/
+  fill: #002A5E; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.braves_inactive:hover{
-  fill: #CE1141; /*Team secondary color*/
+.chargers_inactive:hover {
+  fill: #FFC20E; /*Team secondary color*/
   cursor: pointer;
 }
 
-.braves_title {
+.chargers_title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
 
-/*Marlins Styles*/
+/*chiefs Styles*/
 
-.marlins_chart::before {
+.chiefs_chart::before {
+  position: relative;
+  top: 100px;
+  left: 750px;
+  z-index: -1;
+  display: block;
+  width: 220px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/162/thumbs/857.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.chiefs_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #FFB81C; /*Team secondary color*/
+  text-align: center;
+  background: #E31837; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.chiefs_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #E31837; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.chiefs_active {
+  font-weight: bold;
+  fill: #E31837; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.chiefs_inactive {
+  font-weight: lighter;
+  fill: #E31837; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.chiefs_inactive:hover {
+  fill: #FFB81C; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.chiefs_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*colts Styles*/
+
+.colts_chart::before {
   position: relative;
   top: 100px;
   left: 800px;
@@ -1747,14 +689,278 @@ h2 {
   width: 150px;
   height: 150px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_miami-marlins-logo-present.gif");
+  background-image: url('https://content.sportslogos.net/logos/7/158/thumbs/593.gif');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   opacity: 0.5
 }
 
-.marlins_tooltip {
+.colts_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #A2AAAD; /*Team secondary color*/
+  text-align: center;
+  background: #002C5F; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.colts_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #002C5F; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.colts_active {
+  font-weight: bold;
+  fill: #002C5F; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.colts_inactive {
+  font-weight: lighter;
+  fill: #002C5F; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.colts_inactive:hover {
+  fill: #A2AAAD; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.colts_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*Cowboys Styles*/
+
+.cowboys_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 150px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/165/thumbs/406.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.cowboys_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #869397; /*Team secondary color*/
+  text-align: center;
+  background: #041E42; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.cowboys_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #041E42; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.cowboys_active {
+  font-weight: bold;
+  fill: #041E42; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.cowboys_inactive {
+  font-weight: lighter;
+  fill: #041E42; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.cowboys_inactive:hover {
+  fill: #869397; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.cowboys_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*dolphins Styles*/
+
+.dolphins_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/150/thumbs/15073062018.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.dolphins_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #FC4C02; /*Team secondary color*/
+  text-align: center;
+  background: #008E97; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.dolphins_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #008E97; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.dolphins_active {
+  font-weight: bold;
+  fill: #008E97; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.dolphins_inactive {
+  font-weight: lighter;
+  fill: #008E97; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.dolphins_inactive:hover {
+  fill: #FC4C02; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.dolphins_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*eagles Styles*/
+
+.eagles_chart::before {
+  position: relative;
+  top: 100px;
+  left: 750px;
+  z-index: -1;
+  display: block;
+  width: 220px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/167/thumbs/960.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.eagles_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #A5ACAF; /*Team secondary color*/
+  text-align: center;
+  background: #004C54; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.eagles_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #004C54; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.eagles_active {
+  font-weight: bold;
+  fill: #004C54; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.eagles_inactive {
+  font-weight: lighter;
+  fill: #004C54; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.eagles_inactive:hover {
+  fill: #A5ACAF; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.eagles_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*Falcons Styles*/
+
+.falcons_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 150px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/173/thumbs/299.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.falcons_tooltip {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -1764,63 +970,64 @@ h2 {
   font: 12px sans-serif;
   color: #000000; /*Team secondary color*/
   text-align: center;
-  background: #00A3E0; /*Team primary color*/
+  background: #A71930; /*Team primary color*/
   border: 0;
   border-radius: 10px;
 }
 
-.marlins_axis-text {
+.falcons_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #00A3E0; /*Team primary color*/
+  fill: #A71930; /*Team primary color*/
   text-anchor: middle;
 }
 
-.marlins_active {
+.falcons_active {
   font-weight: bold;
-  fill: #00A3E0; /*Team primary color*/
+  fill: #A71930; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.marlins_inactive {
+.falcons_inactive {
   font-weight: lighter;
-  fill: #00A3E0; /*Team primary color*/
+  fill: #A71930; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.marlins_inactive:hover{
+.falcons_inactive:hover {
   fill: #000000; /*Team secondary color*/
   cursor: pointer;
 }
 
-.marlins_title {
+.falcons_title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
 
-/*Mets Styles*/
+/*giants Styles*/
 
-.mets_chart::before {
+
+.giants_chart::before {
   position: relative;
   top: 100px;
   left: 800px;
   z-index: -1;
   display: block;
-  width: 150px;
+  width: 200px;
   height: 150px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_new-york-mets-logo-present.gif");
+  background-image: url('https://content.sportslogos.net/logos/7/166/thumbs/919.gif');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   opacity: 0.5
 }
 
-.mets_tooltip {
+.giants_tooltip {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -1828,65 +1035,65 @@ h2 {
   width: 180px;
   height: 60px;
   font: 12px sans-serif;
-  color: #FF5910; /*Team secondary color*/
+  color: #A71930; /*Team secondary color*/
   text-align: center;
-  background: #002D72; /*Team primary color*/
+  background: #0B2265; /*Team primary color*/
   border: 0;
   border-radius: 10px;
 }
 
-.mets_axis-text {
+.giants_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #002D72; /*Team primary color*/
+  fill: #0B2265; /*Team primary color*/
   text-anchor: middle;
 }
 
-.mets_active {
+.giants_active {
   font-weight: bold;
-  fill: #002D72; /*Team primary color*/
+  fill: #0B2265; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.mets_inactive {
+.giants_inactive {
   font-weight: lighter;
-  fill: #002D72; /*Team primary color*/
+  fill: #0B2265; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.mets_inactive:hover{
-  fill: #FF5910; /*Team secondary color*/
+.giants_inactive:hover{
+  fill: #A71930; /*Team secondary color*/
   cursor: pointer;
 }
 
-.mets_title {
+.giants_title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
 
-/*Phillies Styles*/
+/*jaguars Styles*/
 
-.phillies_chart::before {
+.jaguars_chart::before {
   position: relative;
   top: 100px;
   left: 800px;
   z-index: -1;
   display: block;
-  width: 150px;
+  width: 200px;
   height: 150px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_philadelphia-phillies-logo-present.gif");
+  background-image: url('https://content.sportslogos.net/logos/7/159/thumbs/15988562013.gif');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   opacity: 0.5
 }
 
-.phillies_tooltip {
+.jaguars_tooltip {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -1894,65 +1101,65 @@ h2 {
   width: 180px;
   height: 60px;
   font: 12px sans-serif;
-  color: #E81828; /*Team secondary color*/
+  color: #D7A22A; /*Team secondary color*/
   text-align: center;
-  background: #002D72; /*Team primary color*/
+  background: #101820; /*Team primary color*/
   border: 0;
   border-radius: 10px;
 }
 
-.phillies_axis-text {
+.jaguars_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #002D72; /*Team primary color*/
+  fill: #101820; /*Team primary color*/
   text-anchor: middle;
 }
 
-.phillies_active {
+.jaguars_active {
   font-weight: bold;
-  fill: #002D72; /*Team primary color*/
+  fill: #101820; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.phillies_inactive {
+.jaguars_inactive {
   font-weight: lighter;
-  fill: #002D72; /*Team primary color*/
+  fill: #101820; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.phillies_inactive:hover{
-  fill: #E81828; /*Team secondary color*/
+.jaguars_inactive:hover{
+  fill: #D7A22A; /*Team secondary color*/
   cursor: pointer;
 }
 
-.phillies_title {
+.jaguars_title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
 
-/*Nationals Styles*/
+/*jets Styles*/
 
-.nationals_chart::before {
+.jets_chart::before {
   position: relative;
   top: 100px;
   left: 800px;
   z-index: -1;
   display: block;
-  width: 150px;
+  width: 200px;
   height: 150px;
   content: " ";
-  background-image: url("https://findthatlogo.com/wp-content/gallery/mlb-team-logos/thumbs/thumbs_washington-nationals-logo-present.gif");
+  background-image: url('https://content.sportslogos.net/logos/7/152/thumbs/15291162019.gif');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   opacity: 0.5
 }
 
-.nationals_tooltip {
+.jets_tooltip {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -1960,40 +1167,965 @@ h2 {
   width: 180px;
   height: 60px;
   font: 12px sans-serif;
-  color: #14225A; /*Team secondary color*/
+  color: #000000; /*Team secondary color*/
   text-align: center;
-  background: #AB0003; /*Team primary color*/
+  background: #125740; /*Team primary color*/
   border: 0;
   border-radius: 10px;
 }
 
-.nationals_axis-text {
+.jets_axis-text {
   font-family: sans-serif;
   font-weight: bold;
-  fill: #AB0003; /*Team primary color*/
+  fill: #125740; /*Team primary color*/
   text-anchor: middle;
 }
 
-.nationals_active {
+.jets_active {
   font-weight: bold;
-  fill: #AB0003; /*Team primary color*/
+  fill: #125740; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.nationals_inactive {
+.jets_inactive {
   font-weight: lighter;
-  fill: #AB0003; /*Team primary color*/
+  fill: #125740; /*Team primary color*/
   transition: fill 0.3s ease-out;
   text-anchor: middle;
 }
 
-.nationals_inactive:hover{
-  fill: #14225A; /*Team secondary color*/
+.jets_inactive:hover{
+  fill: #000000; /*Team secondary color*/
   cursor: pointer;
 }
 
-.nationals_title {
+.jets_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*lions Styles*/
+
+.lions_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/170/thumbs/17013982017.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.lions_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #B0B7BC; /*Team secondary color*/
+  text-align: center;
+  background: #0076B6; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.lions_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #0076B6; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.lions_active {
+  font-weight: bold;
+  fill: #0076B6; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.lions_inactive {
+  font-weight: lighter;
+  fill: #0076B6; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.lions_inactive:hover{
+  fill: #B0B7BC; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.lions_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*Packers Styles*/
+
+.packers_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/171/thumbs/dcy03myfhffbki5d7il3.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.packers_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #FFB612; /*Team secondary color*/
+  text-align: center;
+  background: #203731; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.packers_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #203731; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.packers_active {
+  font-weight: bold;
+  fill: #203731; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.packers_inactive {
+  font-weight: lighter;
+  fill: #203731; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.packers_inactive:hover{
+  fill: #FFB612; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.packers_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*panthers Styles*/
+
+.panthers_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/174/thumbs/f1wggq2k8ql88fe33jzhw641u.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+
+.panthers_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #101820; /*Team secondary color*/
+  text-align: center;
+  background: #0085CA; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.panthers_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #0085CA; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.panthers_active {
+  font-weight: bold;
+  fill: #0085CA; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.panthers_inactive {
+  font-weight: lighter;
+  fill: #0085CA; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.panthers_inactive:hover{
+  fill: #101820; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.panthers_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*patriots Styles*/
+
+.patriots_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/151/thumbs/y71myf8mlwlk8lbgagh3fd5e0.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.patriots_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #C60C30; /*Team secondary color*/
+  text-align: center;
+  background: #002244; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.patriots_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #002244; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.patriots_active {
+  font-weight: bold;
+  fill: #002244; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.patriots_inactive {
+  font-weight: lighter;
+  fill: #002244; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.patriots_inactive:hover{
+  fill: #C60C30; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.patriots_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*raiders Styles*/
+
+.raiders_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/6708/thumbs/670885212020.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.raiders_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #A5ACAF; /*Team secondary color*/
+  text-align: center;
+  background: #000000; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.raiders_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #000000; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.raiders_active {
+  font-weight: bold;
+  fill: #000000; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.raiders_inactive {
+  font-weight: lighter;
+  fill: #000000; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.raiders_inactive:hover{
+  fill: #A5ACAF; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.raiders_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*rams Styles*/
+
+.rams_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/5941/thumbs/594183342020.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.rams_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #FFA300; /*Team secondary color*/
+  text-align: center;
+  background: #003594; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.rams_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #003594; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.rams_active {
+  font-weight: bold;
+  fill: #003594; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.rams_inactive {
+  font-weight: lighter;
+  fill: #003594; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.rams_inactive:hover{
+  fill: #FFA300; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.rams_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*ravens Styles*/
+
+.ravens_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/153/thumbs/318.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.ravens_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #000000; /*Team secondary color*/
+  text-align: center;
+  background: #241773; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.ravens_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #241773; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.ravens_active {
+  font-weight: bold;
+  fill: #241773; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.ravens_inactive {
+  font-weight: lighter;
+  fill: #241773; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.ravens_inactive:hover{
+  fill: #000000; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.ravens_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*saints Styles*/
+
+.saints_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/175/thumbs/907.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.saints_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #101820; /*Team secondary color*/
+  text-align: center;
+  background: #D3BC8D; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.saints_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #D3BC8D; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.saints_active {
+  font-weight: bold;
+  fill: #D3BC8D; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.saints_inactive {
+  font-weight: lighter;
+  fill: #D3BC8D; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.saints_inactive:hover{
+  fill: #101820; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.saints_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*seahawks Styles*/
+
+.seahawks_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/180/thumbs/pfiobtreaq7j0pzvadktsc6jv.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.seahawks_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #69BE28; /*Team secondary color*/
+  text-align: center;
+  background: #002244; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.seahawks_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #002244; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.seahawks_active {
+  font-weight: bold;
+  fill: #002244; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.seahawks_inactive {
+  font-weight: lighter;
+  fill: #002244; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.seahawks_inactive:hover{
+  fill: #69BE28; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.seahawks_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*steelers Styles*/
+
+.steelers_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/156/thumbs/970.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.steelers_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #101820; /*Team secondary color*/
+  text-align: center;
+  background: #FFB612; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.steelers_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #FFB612; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.steelers_active {
+  font-weight: bold;
+  fill: #FFB612; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.steelers_inactive {
+  font-weight: lighter;
+  fill: #FFB612; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.steelers_inactive:hover{
+  fill: #101820; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.steelers_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*texans Styles*/
+
+.texans_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/157/thumbs/570.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.texans_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #A71930; /*Team secondary color*/
+  text-align: center;
+  background: #03202F; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.texans_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #03202F; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.texans_active {
+  font-weight: bold;
+  fill: #03202F; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.texans_inactive {
+  font-weight: lighter;
+  fill: #03202F; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.texans_inactive:hover{
+  fill: #A71930; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.texans_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*titans Styles*/
+
+.titans_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/160/thumbs/1053.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.titans_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #4B92DB; /*Team secondary color*/
+  text-align: center;
+  background: #0C2340; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.titans_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #0C2340; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.titans_active {
+  font-weight: bold;
+  fill: #0C2340; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.titans_inactive {
+  font-weight: lighter;
+  fill: #0C2340; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.titans_inactive:hover{
+  fill: #4B92DB; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.titans_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*vikings Styles*/
+
+.vikings_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/172/thumbs/17227042013.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.vikings_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #FFC62F; /*Team secondary color*/
+  text-align: center;
+  background: #4F2683; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.vikings_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #4F2683; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.vikings_active {
+  font-weight: bold;
+  fill: #4F2683; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.vikings_inactive {
+  font-weight: lighter;
+  fill: #4F2683; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.vikings_inactive:hover{
+  fill: #FFC62F; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.vikings_title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*washington Styles*/
+
+.washington_chart::before {
+  position: relative;
+  top: 100px;
+  left: 800px;
+  z-index: -1;
+  display: block;
+  width: 200px;
+  height: 150px;
+  content: " ";
+  background-image: url('https://content.sportslogos.net/logos/7/6741/thumbs/674188372020.gif');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.5
+}
+
+.washington_tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  font: 12px sans-serif;
+  color: #FFB612; /*Team secondary color*/
+  text-align: center;
+  background: #773141; /*Team primary color*/
+  border: 0;
+  border-radius: 10px;
+}
+
+.washington_axis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #773141; /*Team primary color*/
+  text-anchor: middle;
+}
+
+.washington_active {
+  font-weight: bold;
+  fill: #773141; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.washington_inactive {
+  font-weight: lighter;
+  fill: #773141; /*Team primary color*/
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.washington_inactive:hover{
+  fill: #FFB612; /*Team secondary color*/
+  cursor: pointer;
+}
+
+.washington_title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;

@@ -24,7 +24,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Initial Params
-var chosenYAxis = "TC_Total_WAR";
+var chosenYAxis = "RookieAV";
 
 // function used for updating x-scale var upon click on axis label
 function yScale(teamData, chosenYAxis) {
@@ -67,18 +67,18 @@ function updateToolTip(chosenYAxis, barGroup) {
 
   var label;
 
-  if (chosenYAxis === "TC_Total_WAR") {
-    label = "Team Controlled WAR:";
+  if (chosenYAxis === "RookieAV") {
+    label = "Rookie Approximate Value:";
   }
   else {
-    label = "Career WAR:";
+    label = "Career Approximate Value:";
   }
 
   var toolTip = d3.tip()
     .attr("class", "cardinals_tooltip")
     .offset([80, -60])
     .html(function (d) {
-      return (`${d.Year + " " + d.Current_Franchise}<br>${label} ${d[chosenYAxis]}`);
+      return (`${d.Year + " " + d.Team}<br>${label} ${d[chosenYAxis]}`);
     });
 
   barGroup.call(toolTip);
@@ -95,19 +95,19 @@ function updateToolTip(chosenYAxis, barGroup) {
 }
 
 // Retrieve data from the CSV file and execute everything below
-d3.csv("data/Data_Grouped_by_Year_and_Franchise.csv").then(function (teamData, err) {
+d3.csv("Bar_Chart_Data.csv").then(function (teamData, err) {
   if (err) throw err;
 
   var FranchiseTeamData = teamData.filter(function (d) {
-    if (d["Current_Franchise"] == "St. Louis Cardinals") {
+    if (d["Team"] == "Arizona Cardinals") {
       return d;
     }
   })
 
   // parse data
   FranchiseTeamData.forEach(function (data) {
-    data.TC_Total_WAR = Math.round(+data.TC_Total_WAR * 10) / 10;
-    data.Career_Total_WAR = Math.round(+data.Career_Total_WAR * 10) / 10;
+    data.RookieAV = Math.round(+data.RookieAV * 10) / 10;
+    data.CarAV = Math.round(+data.CarAV * 10) / 10;
     data.Year = +data.Year;
   });
 
@@ -130,11 +130,11 @@ d3.csv("data/Data_Grouped_by_Year_and_Franchise.csv").then(function (teamData, e
 
   // append x axis
   chartGroup.append("g")
-  .attr("transform", `translate(0,${height})`)
-  .call(d3.axisBottom(xLinearScale).tickFormat(i => FranchiseTeamData[i].Year).tickSizeOuter(0))
-  .selectAll("text")
-  .attr("text-anchor", "end")
-  .attr("transform", "rotate(-45)")
+    .attr("transform", `translate(0,${height})`)
+    .call(d3.axisBottom(xLinearScale).tickFormat(i => FranchiseTeamData[i].Year).tickSizeOuter(0))
+    .selectAll("text")
+    .attr("text-anchor", "end")
+    .attr("transform", "rotate(-45)")
 
   // append x axis
   var yAxis = chartGroup.append("g")
@@ -157,35 +157,35 @@ d3.csv("data/Data_Grouped_by_Year_and_Franchise.csv").then(function (teamData, e
   var labelsGroup = chartGroup.append("g")
     .attr("transform", `translate(${width / 2}, ${height})`);
 
-    svg.append("text")
-    .attr("x", width / 2 )
+  svg.append("text")
+    .attr("x", width / 2)
     .attr("y", 20)
     .style("text-anchor", "center")
-    .text("St. Louis Cardinals Draft History by WAR")
+    .text("Arizona Cardinals Draft History by AV")
     .classed("cardinals_title", true)
-  ;
+    ;
 
 
-  var TC_WAR = labelsGroup.append("text")
+  var Rookie_AV = labelsGroup.append("text")
     .attr("y", -480)
     .attr("x", (height / 2))
     .attr("dy", "1em")
     .attr("transform", "rotate(-90)")
-    .attr("value", "TC_Total_WAR") // value to grab for event listener
+    .attr("value", "RookieAV") // value to grab for event listener
     .classed("active", true)
     .classed("cardinals_axis-text", true)
-    .text("Team Controlled WAR");
+    .text("Rookie Approximate Value");
 
 
-  var Career_WAR = labelsGroup.append("text")
+  var Career_AV = labelsGroup.append("text")
     .attr("y", -460)
     .attr("x", (height / 2))
     .attr("dy", "1em")
     .attr("transform", "rotate(-90)")
-    .attr("value", "Career_Total_WAR") // value to grab for event listener
+    .attr("value", "CarAV") // value to grab for event listener
     .classed("cardinals_inactive", true)
     .classed("cardinals_axis-text", true)
-    .text("Career WAR");
+    .text("Career Approximate Value");
 
   //append x axis
   chartGroup.append("text")
@@ -225,21 +225,21 @@ d3.csv("data/Data_Grouped_by_Year_and_Franchise.csv").then(function (teamData, e
         barGroup = updateToolTip(chosenYAxis, barGroup);
 
         // changes classes to change bold text
-        if (chosenYAxis === "Career_Total_WAR") {
-          Career_WAR
+        if (chosenYAxis === "CarAV") {
+          Career_AV
             .classed("cardinals_active", true)
             .classed("cardinals_inactive", false);
-          TC_WAR
+          Rookie_AV
             .classed("cardinals_active", false)
             .classed("cardinals_inactive", true);
         }
         else {
-          Career_WAR
-            .classed("cardinals_active", false)
-            .classed("cardinals_inactive", true);
-          TC_WAR
-            .classed("cardinals_active", true)
-            .classed("cardinals_inactive", false);
+          Career_AV
+            .classed("bills_active", false)
+            .classed("bills_inactive", true);
+          Rookie_AV
+            .classed("bills_active", true)
+            .classed("bills_inactive", false);
         }
       }
     });
@@ -251,10 +251,10 @@ d3.csv("data/Data_Grouped_by_Year_and_Franchise.csv").then(function (teamData, e
 
 //Creating a Table
 
-d3.csv("data/Draft_SD_CSV.csv").then(function (playerData) {
+d3.csv("Draft_Data.csv").then(function (playerData) {
 
   var FranchisePlayerData = playerData.filter(function (d) {
-    if (d["Current_Franchise"] == "St. Louis Cardinals") {
+    if (d["Team"] == "Buffalo Bills") {
       return d;
     }
   })
@@ -264,9 +264,9 @@ d3.csv("data/Draft_SD_CSV.csv").then(function (playerData) {
 
   FranchisePlayerData.forEach(function (data) {
     data.Rnd = +data.Rnd;
-    data.OvPck = +data.OvPck;
-    data.TC_Total_WAR = Math.round(+data.TC_Total_WAR * 10) / 10;
-    data.Career_Total_WAR = Math.round(+data.Career_Total_WAR * 10) / 10;
+    data.Pick = +data.Pick;
+    data.RookieAV = +data.RookieAV;
+    data.CarAV = +data.CarAV;
   });
 
   var button = d3.select("#filter-btn");
